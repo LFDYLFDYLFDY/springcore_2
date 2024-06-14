@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f33904-99d3-4d37-b5a9-84a7b7221940" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AnimalsClassNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/ClassNameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/CodeCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/JavaCodeCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/SimpleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/lfdy/spring/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/CppCodeCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/ShapesClassNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/SimpleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/SimpleBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/myContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +60,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.App" />
+      <module name="myfirstspring_13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lfdy.spring.current.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,8 +96,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718348312601</updated>
-      <workItem from="1718348313797" duration="6587000" />
+      <workItem from="1718348313797" duration="10485000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <option name="closed" value="true" />
+      <created>1718362409233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718362409233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
