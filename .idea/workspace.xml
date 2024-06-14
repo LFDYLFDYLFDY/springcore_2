@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f33904-99d3-4d37-b5a9-84a7b7221940" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/CppCodeCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/ShapesClassNameGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/SimpleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/SimpleBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="34f33904-99d3-4d37-b5a9-84a7b7221940" name="Changes" comment="3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718348312601</updated>
-      <workItem from="1718348313797" duration="10485000" />
+      <workItem from="1718348313797" duration="10881000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <option name="closed" value="true" />
@@ -106,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718362409233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3">
+      <option name="closed" value="true" />
+      <created>1718367314487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718367314487</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
