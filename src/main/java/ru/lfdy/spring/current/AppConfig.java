@@ -1,24 +1,38 @@
 package ru.lfdy.spring.current;
 
 import org.springframework.context.annotation.Bean;
+//import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+
 
 @Configuration
 public class AppConfig {
-            /*
-            <bean id ="javaCodeCreator" class = "ru.lfdy.spring.current.JavaCodeCreator">
-    <property name="classNameGenerator">
-       <ref bean="animalsClassNameGenerator"/>
-    </property>
-</bean>
+    /*
+    <bean id="javaCodeCreator" class="com.geekbrains.spring.examples.JavaCodeCreator">
+        <property name="classNameGenerator">
+            <ref bean="animalsClassNameGenerator" />
+        </property>
+    </bean>
 
-<bean id ="simpleBean" class="ru.lfdy.spring.current.SimpleBean " scope="prototype"/>
+    <bean id="animalsClassNameGenerator" class="com.geekbrains.spring.examples.AnimalsClassNameGenerator">
 
-         */
-    @Bean
-    public SimpleBean simpleBean (){
-         SimpleBean simpleBean = new SimpleBean();
-         return simpleBean;
+    </bean>
+     */
+@Bean
+public SimpleBean simpleBean(){
+    return new SimpleBean();
 
+}
+    @Bean("animalsClassNameGenerator")
+    public ClassNameGenerator animalsClassNameGenerator() {
+        ClassNameGenerator classNameGenerator = new AnimalsClassNameGenerator();
+        return classNameGenerator;
+    }
+
+    @Bean("javaCodeCreator")
+    public CodeCreator javaCodeCreator() {
+        CodeCreator codeCreator = new JavaCodeCreator();
+        ((JavaCodeCreator) codeCreator).setClassNameGenerator(animalsClassNameGenerator());
+        return codeCreator;
     }
 }

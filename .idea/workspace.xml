@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f33904-99d3-4d37-b5a9-84a7b7221940" name="Changes" comment="32dwdwd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppConfig.java" afterDir="false" />
+    <list default="true" id="34f33904-99d3-4d37-b5a9-84a7b7221940" name="Changes" comment="32dwdwd1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AnnotatedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/simple/ShopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppSpring.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +52,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.App2.executor": "Run",
+    "Application.App3.executor": "Run",
     "Application.AppSpring.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,9 +72,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppSpring">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.App" />
+      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.simple.App" />
+      <module name="myfirstspring_13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lfdy.spring.current.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.App1" />
       <module name="myfirstspring_13" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.AppSpring" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.App2" />
+      <module name="myfirstspring_13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lfdy.spring.current.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.lfdy.spring.current.App3" />
       <module name="myfirstspring_13" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppSpring" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App3" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.App1" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718348312601</updated>
       <workItem from="1718348313797" duration="11735000" />
-      <workItem from="1718600665702" duration="4711000" />
+      <workItem from="1718600665702" duration="11107000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <option name="closed" value="true" />
@@ -168,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718604253696</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="32dwdwd1">
+      <option name="closed" value="true" />
+      <created>1718612472585</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718612472585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,15 +240,21 @@
     <MESSAGE value="3" />
     <MESSAGE value="32" />
     <MESSAGE value="32dwdwd" />
-    <option name="LAST_COMMIT_MESSAGE" value="32dwdwd" />
+    <MESSAGE value="32dwdwd1" />
+    <option name="LAST_COMMIT_MESSAGE" value="32dwdwd1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AppSpring.java</url>
-          <line>9</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/App2.java</url>
+          <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/lfdy/spring/current/AnnotatedBean.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
